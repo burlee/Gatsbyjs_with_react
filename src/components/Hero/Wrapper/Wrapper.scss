@@ -1,0 +1,32 @@
+.Wrapper{
+    background-color: #112535;
+    width: 100%;
+    height: auto;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 20px 0px 20px;
+    box-sizing: border-box;
+    position: relative;
+    .TopElement{
+        width: 80%;
+        height: 10px;
+        border-radius: 3px;
+        background: #374651;
+        margin-top: 20px;
+    }
+}
+
+.Wrapper::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 329px;
+    width: 100%;
+    background: #1b2936;
+    z-index: 1;
+    border-top: 1px solid hsla(0, 0%, 50%, 0.15);
+}

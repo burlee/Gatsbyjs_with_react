@@ -1,0 +1,37 @@
+.WhatWeOffer{
+    height: auto;
+    width: 100%;
+    background-color: #fefefe;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.WhatWeOfferBox{
+    width: 45%;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfb;
+    margin: 10px;
+    justify-content: space-between;
+    img{
+        padding: 10px;
+    }
+    div{
+        width: 75%;
+        h3{
+            margin: 20px 0px;
+            color: #4c4c4c;
+        }
+        p{
+            margin: 20px 0px;
+            color: #ababab;
+            text-align: justify;
+        }
+    }
+}
